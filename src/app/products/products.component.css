@@ -1,0 +1,21 @@
+h1{
+    color:red;
+    text-align:center;
+    
+} 
+
+h2,h3{
+    color:blue;
+    text-align:center;
+    text-orientation: upright;
+}
+
+.bsection{
+    text-align:center;
+}
+
+.onewaybinding{
+    color:brown;
+    text-align:center;
+    text-orientation: upright;
+}

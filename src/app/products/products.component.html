@@ -1,0 +1,36 @@
+<h1 >This is part of product Component!!!!!</h1>
+<br>
+<h2>This is String interpolition</h2>
+<h3>This is the product with id {{productId}} and productstatus {{productStatus}} .</h3>
+<br>
+<br>
+<div class="onewaybinding ">
+<p>String interpolition and Property Binding:::</p>
+<label>Product Name: 
+    <input type="text" style="width:330px;align-self: center;" class="form-control" (input)="onUpdateProductName($event)" ></label>
+<br>Enterd Text Value by string interpolition and event binding is: {{enterdValue}}
+</div>
+<br>
+<div class="bsection">
+
+    <button class="btn btn-primary" [disabled]="addProduct"  (click)="onClick()">Add Product</button>
+    <br>
+  <p>Result of add product by property and event binding : {{addProductStatus}}</p>
+    <br>
+    <p>Below is a result of property binding</p>
+    <p [innerText]="addProduct">This is from property binding</p>
+
+    
+</div>
+<div class="Both-way Binding">
+
+
+</div>
+
+
+
+
+
+
+
+
